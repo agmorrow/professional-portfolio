@@ -1,21 +1,27 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import Logo from '../assets/sample_logo.png';
-import Jumbo from '../assets/background.jpg';
 
 const Hero = () => {
   return (
-    <div name='hero' className='w-full h-screen'>
-    <img src={Jumbo} alt='Morrow Web Dev Logo' className='w-full h-full' />
-      
+    <>
+    <section className='heroImg'>
+    
+   
     {/* Logo */}
-    <div className='max-w-[600px] mx-auto px-8 flex flex-col object-center h-full'>
+    <div className='max-w-[525px] mx-auto px-20 pt-20 flex flex-col justify-center h-full'>
       <img src={Logo} alt='Morrow Web Dev Logo'></img>
       <div>
-        <button>View Work <HiArrowNarrowRight /></button>
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-300 hover:border-amber-300'>
+          View Work 
+          <span className='group-hover:rotate-90 duration-300'>
+          <HiArrowNarrowRight className='ml-3' />
+          </span></button>
       </div>
+
     </div>
-    </div>
+    </section>
+    </>
   )
 }
 

@@ -13,3 +13,16 @@
     @apply cursor-pointer;
   }
 }
+
+.heroImg {
+  height: 100vh;
+  background: url(./assets/jumboImg.jpg) no-repeat center/
+cover;
+}
+
+.navList li {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 18px;
+}
+

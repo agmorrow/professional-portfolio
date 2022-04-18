@@ -8,21 +8,22 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-slate-300 text-black'>
-
+    <div>
+    <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-slate-200 text-black opacity-75'>
       {/* menu */}
-        <ul  className='hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
+        <ul  className='navList hidden md:flex'>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>SKILLS</li>
+          <li>WORK</li>
+          <li>CONTACT</li>
         </ul>
-
+        
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
+       
         {/* Mobile menu */}
           <ul className={!nav ? 'hidden' : 'absolute top-0 left0 w-full h-screen bg-slate-300 flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl'>Home</li>
@@ -31,7 +32,7 @@ const Navbar = () => {
           <li className='py-6 text-4xl'>Work</li>
           <li className='py-6 text-4xl'>Contact</li>
           </ul>
-
+          </div>
       {/* Social icons */}
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
     <ul>
