@@ -10,7 +10,7 @@ const Hero = () => {
    
     {/* Logo */}
     <div className='max-w-[525px] mx-auto px-20 pt-20 flex flex-col justify-center h-full'>
-      <img src={Logo} alt='Morrow Web Dev Logo'></img>
+      <img src={Logo} alt='Morrow Web Dev Logo' />
       <div>
         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-300 hover:border-amber-300'>
           View Work 
