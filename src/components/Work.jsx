@@ -11,7 +11,7 @@ const Work = () => {
     <div name='work' className='w-full md:h-screen text-black bg-slate-200'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-black border-amber-300'>Work</p>
+          <p className='text-4xl font-bold inline border-b-4 text-black border-amber-400'>Work</p>
           <p className='py-6'>// Check out some of my recent work</p>
         </div>
       {/* Container */}
@@ -24,7 +24,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              JavaScript, CSS, Handlebars.js, MySQL
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">
@@ -43,7 +43,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              JavaScript, CSS, Handlebars.js, MySQL
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">
@@ -63,7 +63,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              HTML, CSS, JavaScript
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">
@@ -82,7 +82,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              JavaScript, CSS, Handlebars.js, MySQL
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">
@@ -102,7 +102,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              JavaScripts, Express.js,
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">
@@ -121,7 +121,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              HTML, CSS, JavaScript
               </span>
               <div className='pt-8 text-center'>
                 <a href="/">

@@ -31,13 +31,14 @@ cover;
   background-size: cover;
   background-position: center;
   height: 250px;
+  transition: 1s;
 }
 
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-  ) !important;
-}
+    rgba(94, 104, 211, 0.8),
+    hsla(263, 74%, 61%, 0.8)
+    ) !important;
+  }
 
