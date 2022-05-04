@@ -17,122 +17,129 @@ const Work = () => {
       {/* Container */}
         < div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
-          <div style={{backgroundImage: `url(${J4J})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
+         
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript, CSS, Handlebars.js, MySQL
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div style={{backgroundImage: `url(${ChartMd})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
+          <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={J4J} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript, CSS, Handlebars.js, MySQL
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-                   {/* Grid Item */}
-                   <div style={{backgroundImage: `url(${DinnerParty})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              HTML, CSS, JavaScript
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div style={{backgroundImage: `url(${TechBlog})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
+ {/* Grid Item */}
+         
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript, CSS, Handlebars.js, MySQL
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-                   {/* Grid Item */}
-                   <div style={{backgroundImage: `url(${NoteTaker})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
+ <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={ChartMd} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScripts, Express.js,
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div style={{backgroundImage: `url(${Weather})`}}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-           >
+          
+     {/* Grid Item */}
+         
 
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-              HTML, CSS, JavaScript
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
+     <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={DinnerParty} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+
+     
+      {/* Grid Item */}
+         
+
+      <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={TechBlog} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+
+ {/* Grid Item */}
+         
+
+ <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={NoteTaker} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+
+ {/* Grid Item */}
+         
+
+ <div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!">
+      <img class="rounded-t-lg" src={Weather} alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+    </div>
+  </div>
+</div>
+
+   
         </div>
       </div>
     </div>
