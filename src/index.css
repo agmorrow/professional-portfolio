@@ -26,20 +26,5 @@ cover;
   font-size: 18px;
 }
 
-.content-div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  transition: 1s;
-}
 
-/* .content-div:hover {
-  background-color: 
-  
-    rgb(116, 117, 120),
-    
-     !important;
-    
-  } */
 

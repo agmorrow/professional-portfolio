@@ -14,132 +14,116 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-black border-amber-400'>Work</p>
           <p className='py-6'>// Check out some of my recent work</p>
         </div>
-      {/* Container */}
+        {/* Container */}
         < div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
           {/* Grid Item */}
-         
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={J4J} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Java 4 JavaScripters</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={J4J} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
+          {/* Grid Item */}
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={ChartMd} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Chard Md</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          {/* Grid Item */}
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={DinnerParty} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Dinner Party</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
- {/* Grid Item */}
-         
+          {/* Grid Item */}
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={TechBlog} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">The TechBlog</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
- <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={ChartMd} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
+          {/* Grid Item */}
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={NoteTaker} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Note Taker App</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          
-     {/* Grid Item */}
-         
-
-     <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={DinnerParty} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
-
-     
-      {/* Grid Item */}
-         
-
-      <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={TechBlog} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
-
- {/* Grid Item */}
-         
-
- <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={NoteTaker} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
-
- {/* Grid Item */}
-         
-
- <div class="flex justify-center">
-  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-    <a href="#!">
-      <img class="rounded-t-lg" src={Weather} alt=""/>
-    </a>
-    <div class="p-6">
-      <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-      <p class="text-gray-700 text-base mb-4">
-        Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-      <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-    </div>
-  </div>
-</div>
-
-   
+          {/* Grid Item */}
+          <div className="flex justify-center">
+            <div className="rounded-lg shadow-lg bg-white max-w-sm">
+                <img className="rounded-t-lg" src={Weather} alt="" />
+              <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Weather Dashboard</h5>
+                <p className="text-gray-700 text-base mb-4">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <div className="flex justify-center space-x-3">
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button>
+                <button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
