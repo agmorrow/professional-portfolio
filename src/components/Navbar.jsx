@@ -11,30 +11,30 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div>
-    <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-slate-200 text-black opacity-75'>
+    <div className='fixed w-full h-[80px] flex justify-center items-center bg-[#e8e8e8] text-black opacity-90'>
       {/* menu */}
         <ul  className='navList hidden md:flex'>
-          <li>
+          <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
           <Link to="home" smooth={true} duration={500} >
           HOME
         </Link>
           </li>
-          <li>
+          <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
           <Link to="about" smooth={true} duration={500} >
           ABOUT
         </Link>
           </li>
-          <li>
+          <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
           <Link to="skills" smooth={true} duration={500} >
           SKILLS
         </Link>
           </li>
-          <li>
+          <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
           <Link to="work" smooth={true} duration={500} >
           WORK
         </Link>
           </li>
-          <li>
+          <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
           <Link to="contact" smooth={true} duration={500} >
           CONTACT
         </Link>
@@ -48,27 +48,27 @@ const Navbar = () => {
        
         {/* Mobile menu */}
           <ul className={!nav ? 'hidden' : 'absolute top-0 left0 w-full h-screen bg-slate-300 flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl hover:text-[#9e100c]'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500} >
           HOME
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl hover:text-[#9e100c]'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500} >
           ABOUT
           </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl hover:text-[#9e100c]'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500} >
           SKILLS
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl hover:text-[#9e100c]'>
           <Link onClick={handleClick} to="work" smooth={true} duration={500} >
           WORK
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl hover:text-[#9e100c]'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
           CONTACT
         </Link>
