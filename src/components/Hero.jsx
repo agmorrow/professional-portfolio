@@ -9,7 +9,7 @@ const Hero = () => {
     <section name='home' className='heroImg'>
     
     {/* Logo */}
-    <div className='max-w-[650px] mx-auto px-20 pt-20 flex flex-col justify-center h-full'>
+    <div className='max-w-[525px] mx-auto px-20 pt-20 flex flex-col justify-center h-full'>
       <img className='opacity-90	' src={Logo} alt='Morrow Web Dev Logo' />
       <div>
         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-400 hover:border-amber-400'>
