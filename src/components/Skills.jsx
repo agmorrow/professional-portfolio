@@ -19,36 +19,36 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={HTML} alt="HTML icon" />
-             <p className='my 4'>HTML</p>
+              <img className='w-20 pt-10 mx-auto' src={HTML} alt="HTML icon" />
+             <p className='pb-6 pt-2'>HTML</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={CSS} alt="CSS icon" />
-             <p className='my 4'>CSS</p>
+              <img className='w-20 pt-10 mx-auto' src={CSS} alt="CSS icon" />
+             <p className='pb-6 pt-2'>CSS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={JavaScript} alt="JavaScript icon" />
-             <p className='my 4'>JAVASCRIPT</p>
+              <img className='w-20 pt-10 mx-auto' src={JavaScript} alt="JavaScript icon" />
+             <p className='pb-6 pt-2'>JAVASCRIPT</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={ReactImg} alt="React icon" />
-             <p className='my 4'>REACT</p>
+              <img className='w-20 pt-10 mx-auto' src={ReactImg} alt="React icon" />
+             <p className='pb-6 pt-2'>REACT</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <BsGithub className='w-20 pt-2 mx-auto' size={90} />
-             <p className='my 4'>GITHUB</p>
+              <BsGithub className='w-20 pt-10 mx-auto' size={115} />
+             <p className='pb-6 pt-2'>GITHUB</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={Node} alt="Node icon" />
-             <p className='my 4'>NODE JS</p>
+              <img className='w-20 pt-10 mx-auto' src={Node} alt="Node icon" />
+             <p className='pb-6 pt-2'>NODE JS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={Mongo} alt="Mongo icon" />
-             <p className='my 4'>MONGO DB</p>
+              <img className='w-20 pt-10 mx-auto' src={Mongo} alt="Mongo icon" />
+             <p className='pb-6 pt-2'>MONGO DB</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <img className='w-20 pt-2 mx-auto' src={TailWind} alt="Tailwind icon" />
-             <p className='my 4'>TAILWIND</p>
+              <img className='w-20 pt-10 mx-auto' src={TailWind} alt="Tailwind icon" />
+             <p className='pb-6 pt-2'>TAILWIND</p>
             </div>
       </div>
       </div>
