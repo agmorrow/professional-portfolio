@@ -10,9 +10,9 @@ const Hero = () => {
     
     {/* Logo */}
     <div className='max-w-[525px] mx-auto px-20 pt-20 flex flex-col justify-center h-full'>
-      <img className='opacity-90	' src={Logo} alt='Morrow Web Dev Logo' />
+      <img className='opacity-90 rounded-md' src={Logo} alt='Morrow Web Dev Logo' />
       <div>
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-400 hover:border-amber-400'>
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-amber-400 hover:border-amber-400'>
         <Link to="work" smooth={true} duration={500} >
           View Work
         </Link>

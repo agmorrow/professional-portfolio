@@ -8,9 +8,9 @@ import Weather from '../assets/weatherdashboard.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full text-black bg-slate-200'>
+    <div name='work' className='w-full pt-12 text-black bg-gray-200'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+        <div className='pb-10'>
           <p className='text-4xl font-bold inline border-b-4 text-black border-amber-400'>WORK</p>
         </div>
         {/* Container */}

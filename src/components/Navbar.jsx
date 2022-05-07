@@ -78,25 +78,25 @@ const Navbar = () => {
       {/* Social icons */}
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
     <ul>
-      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-tr-lg hover:rounded-lg duration-300 bg-blue-600'>
         <a className='flex justify-between items-center w-full text-gray-100'
         href="https://www.linkedin.com/in/agmorrow/" target="_blank">
           Linkedin <FaLinkedin  size={30}/>
         </a>
       </li>
-      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300 bg-[#333333]'>
         <a className='flex justify-between items-center w-full text-gray-100'
         href="https://github.com/agmorrow" target="_blank">
           Github <FaGithub  size={30}/>
         </a>
       </li>
-      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6ba957]'>
+      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300 bg-[#6ba957]'>
         <a className='flex justify-between items-center w-full text-gray-100'
         href="mailto:morrow.austin5@gmail.com">
           Email <HiOutlineMail  size={30}/>
         </a>
       </li>
-      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#586069]'>
+      <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-br-lg hover:rounded-lg duration-300 bg-[#586069]'>
         <a className='flex justify-between items-center w-full text-gray-100'
         href={Resume}>
           Resume <BsFillPersonLinesFill  size={30}/>
