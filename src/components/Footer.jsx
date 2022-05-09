@@ -10,7 +10,7 @@ const Footer = () => {
       {/* Social icons */}
       <div className='bg-[#333333] text-white flex justify-center items-center pb-4 lg:hidden'>
         <ul>
-          <li className='w-[150px] h-[50px] flex justify-between items-center'>
+          <li className='w-[150px] h-[50px] mt-4 flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100 '
               href="https://www.linkedin.com/in/agmorrow/" target="_blank">
               <span className='hover:text-[#9e100c]'>Linkedin</span><FaLinkedin size={30} />
