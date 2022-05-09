@@ -40,8 +40,6 @@ const Footer = () => {
       <div className='bg-[#333333] text-white flex justify-center items-center pb-4'>
         <h3 className='inline-block mt-1 lg:mt-4'>© 2022 Austin Morrow</h3>
       </div>
-
-
     </>
   )
 }
