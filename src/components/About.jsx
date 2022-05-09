@@ -1,5 +1,5 @@
 import React from 'react';
-import Portrait from '../assets/portrait.JPG';
+import Portrait from '../assets/portrait.jpg';
 
 const About = () => {
   return (
