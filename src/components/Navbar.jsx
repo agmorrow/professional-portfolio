@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div>
-      <div className='fixed w-full h-[80px] flex justify-center items-center bg-[#e8e8e8] text-black opacity-90'>
+      <div className='fixed w-full h-[80px] flex justify-center items-center bg-[#e8e8e8] text-black opacity-90 z-10'>
         {/* menu */}
         <ul className='navList hidden md:flex'>
           <li className='hover:text-[#9e100c] px-2 lg:px-6 xl:px-10 2xl:px-20'>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left0 w-full h-screen bg-slate-300 flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate-300 flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl hover:text-[#9e100c]'>
             <Link onClick={handleClick} to="home" smooth={true} duration={500} >
               HOME
