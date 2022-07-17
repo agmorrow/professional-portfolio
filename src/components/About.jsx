@@ -18,18 +18,9 @@ const About = () => {
             <img src={Portrait} alt="portrait" className='max-w-[300px] shadow-md shadow-[#040c16] rounded-lg' />
           </div>
           <div>
-            <p> Hello! My name is Austin Morrow. I am a web developer located in Denver, CO. I started out my professional
-              career in the non-profit sector. Even before I knew about the basics of web development or even how the
-              internet works, I've always loved creativity, problem-solving, and design. I love thinking of an idea and
-              bringing it to life from the ground up.<br />
-              <br />
-              One thing that I learned in non-profit work that is still pertinent to what I do today is that you can learn
-              so much about the world through story telling. Hearing what obstacles someone has overcome, learning about
-              what they are passionate about, or even hearing what they have to give to the world can break down so many
-              walls.
-              This discovery opened up so many possibilities even when it comes to making a website or application. Being
-              able to showcase someones work, or help a business design their website helps them continue telling their
-              story, and in return helps make this world a better place. Let's build something together!
+            <p>
+            Full stack developer leveraging non-profit background to build engaging and user-friendly websites. Recently earned a certificate in full stack development from the University of Denver where I developed skills in HTML, CSS, JavaScript, React.js, MongoDB, and responsive web design. Resourceful problem-solver who is passionate about learning and developing applications with accessibility in mind. With each project, my goal is to focus on functionality and continue learning as I come across obstacles.<br />
+            <br />I applied functionality in a recent project. I worked on a team of four to develop an ecommerce website using the MERN stack that allows a user to create a username and log in, search through a store, add items to a cart, and check out using Stripe. As a team we overcame an obstacle with the Stripe feature not functioning by identifying where the issue started, reading documentation, and going to others for a second opinion. I am excited to leverage my skills as part of a creative, quality-driven team to build a better experience on the web.
             </p>
           </div>
         </div>
