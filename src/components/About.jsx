@@ -19,7 +19,7 @@ const About = () => {
           </div>
           <div>
             <p>
-            Full stack developer leveraging non-profit background to build engaging and user-friendly websites. Recently earned a certificate in full stack development from the University of Denver where I developed skills in HTML, CSS, JavaScript, React.js, MongoDB, and responsive web design. Resourceful problem-solver who is passionate about learning and developing applications with accessibility in mind. With each project, my goal is to focus on functionality and continue learning as I come across obstacles.<br />
+            Full stack developer leveraging non-profit background to build engaging and user-friendly websites. Resourceful problem-solver who is passionate about learning and developing applications with accessibility in mind. With each project, my goal is to focus on functionality and continue learning as I come across obstacles.<br />
             <br />I applied functionality in a recent project. I worked on a team of four to develop an ecommerce website using the MERN stack that allows a user to create a username and log in, search through a store, add items to a cart, and check out using Stripe. As a team we overcame an obstacle with the Stripe feature not functioning by identifying where the issue started, reading documentation, and going to others for a second opinion. I am excited to leverage my skills as part of a creative, quality-driven team to build a better online experience.
             </p>
           </div>
