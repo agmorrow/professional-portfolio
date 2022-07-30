@@ -12,13 +12,13 @@ const Footer = () => {
         <ul>
           <li className='w-[150px] h-[50px] mt-4 flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100 '
-              href="https://www.linkedin.com/in/agmorrow/" target="_blank">
+              href="https://www.linkedin.com/in/agmorrow/" target="_blank" rel="noreferrer">
               <span className='hover:text-[#9e100c]'>Linkedin</span><FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[150px] h-[50px] flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="https://github.com/agmorrow" target="_blank">
+              href="https://github.com/agmorrow" target="_blank" rel="noreferrer">
               <span className='hover:text-[#9e100c]'>Github</span> <FaGithub size={30} />
             </a>
           </li>
@@ -37,8 +37,8 @@ const Footer = () => {
         </ul>
       </div>
       {/* Copyright */}
-      <div className='bg-[#333333] text-white flex justify-center items-center pb-4'>
-        <h3 className='inline-block mt-1 lg:mt-4'>© 2022 Austin Morrow</h3>
+      <div className='bg-[#333333] text-white text-xs flex justify-center items-center pb-4'>
+        <h3 className='inline-block mt-1 lg:mt-4'>© 2022 All rights reserved - Designed and Coded by Austin Morrow</h3>
       </div>
     </>
   )
