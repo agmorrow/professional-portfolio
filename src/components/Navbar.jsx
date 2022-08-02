@@ -80,13 +80,13 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-tr-lg hover:rounded-lg duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="https://www.linkedin.com/in/agmorrow/" target="_blank">
+              href="https://www.linkedin.com/in/agmorrow/" target="_blank" rel="noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="https://github.com/agmorrow" target="_blank">
+              href="https://github.com/agmorrow" target="_blank" rel="noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>

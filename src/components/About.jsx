@@ -19,12 +19,13 @@ const About = () => {
           </div>
           <div>
             <p>
-            {/* Hi there, I'm Austin. I am a web developer based in Denver, CO. I love building and designing web applications. My interest in web development started in
-            2021 when I started looking for a career change. Coming from a non-profit background, I have leveraged my skills to build engaging and user friendly websites. */}
-
-            Full stack developer leveraging non-profit background to build engaging and user-friendly websites. Resourceful problem-solver who is passionate about learning and developing applications with accessibility in mind. With each project, my goal is to focus on functionality and continue learning as I come across obstacles.<br />
-            <br />I applied functionality in a recent project. I worked on a team of four to develop an ecommerce website using the MERN stack that allows a user to create a username and log in, search through a store, add items to a cart, and check out using Stripe. As a team we overcame an obstacle with the Stripe feature not functioning by identifying where the issue started, reading documentation, and going to others for a second opinion. I am excited to leverage my skills as part of a creative, quality-driven team to build a better online experience.
-            </p>
+            Hi there, I'm Austin. I am a web developer based in Denver, CO. I love building and designing web applications. With a background in non-profit work, I have always looked for ways to empower individuals and share stories.
+             I have found that web development is more than just building a website and hosting it online. I see the design and functionality of
+            a website shows a little taste of who an individual or company is, and that can be enough for people to want to invest in.<br></br>
+             <br></br>
+            I am experienced in building full stack web applications and love learning new technologies. My goal is to help people and companies share their story
+            and to have a little fun along the way.
+             </p>
           </div>
         </div>
       </div>
