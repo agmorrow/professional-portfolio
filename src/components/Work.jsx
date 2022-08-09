@@ -59,8 +59,8 @@ const Work = () => {
                   Front end application
                 </p>
                 <div className="flex justify-center space-x-3">
-                  <a href="https://agmorrow.github.io/Project1_DinnerParty/" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button></a>
-                  <a href="https://github.com/agmorrow/Project1_DinnerParty" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button></a>
+                  <a href="https://agmorrow.github.io/DinnerParty-App/" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button></a>
+                  <a href="https://github.com/agmorrow/DinnerParty-App" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button></a>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Work = () => {
                 </p>
                 <div className="flex justify-center space-x-3">
                   <a href="https://thetechblog-14-agm.herokuapp.com/" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Demo</button></a>
-                  <a href="https://github.com/agmorrow/MVC_Week14_AGM" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button></a>
+                  <a href="https://github.com/agmorrow/TheTechBlog" target="_blank" rel="noreferrer"><button type="button" className=" inline-block px-8 py-2.5 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-600 active:shadow-lg transition duration-150 ease-in-out">Code</button></a>
                 </div>
               </div>
             </div>
