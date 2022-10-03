@@ -37,8 +37,11 @@ const Footer = () => {
         </ul>
       </div>
       {/* Copyright */}
-      <div className='bg-[#333333] text-white text-xs flex justify-center items-center pb-4'>
-        <h3 className='inline-block mt-1 lg:mt-4'>© 2022 All rights reserved - Designed and Coded by Austin Morrow</h3>
+      <div className='bg-[#333333] text-white flex justify-center items-center pb-4'>
+        <ul>
+        <h3 className='mt-1 flex justify-center lg:mt-4 text-sm'>© 2022 All Rights Reserved</h3>
+        <h4 className='mt-1 flex justify-center lg:mt-4 text-xs'>Website Designed & Developed By Austin Morrow</h4>
+        </ul>
       </div>
     </>
   )
