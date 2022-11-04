@@ -3,7 +3,7 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import { BsGithub } from 'react-icons/bs';
+import Vue from '../assets/vue.png';
 import Node from '../assets/node.png';
 import Mongo from '../assets/mongo.png';
 import TailWind from '../assets/tailwind.png';
@@ -35,8 +35,8 @@ const Skills = () => {
             <p className='pb-6 pt-2'>REACT</p>
           </div>
           <div className='shadow-md shadow-[#040c16]  rounded-lg hover:scale-110 duration-500'>
-            <BsGithub className='w-20 pt-10 mx-auto' size={115} />
-            <p className='pb-6 pt-2'>GITHUB</p>
+            <img className='w-20 pt-10 mx-auto' src={Vue} alt="Vue icon" size={115} />
+            <p className='pb-6 pt-2'>VUE</p>
           </div>
           <div className='shadow-md shadow-[#040c16] rounded-lg hover:scale-110 duration-500'>
             <img className='w-20 pt-10 mx-auto' src={Node} alt="Node icon" />
