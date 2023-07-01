@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Resume from '../assets/AustinMorrow_Resume.pdf';
+//import { BsFillPersonLinesFill } from 'react-icons/bs';
+//import Resume from '../assets/AustinMorrow_Resume.pdf';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -90,18 +90,18 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300 bg-[#6ba957]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-br-lg hover:rounded-lg duration-300 bg-[#6ba957]'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="mailto:morrow.austin5@gmail.com">
+              href="mailto:austinmorrowdev@gmail.com">
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-br-lg hover:rounded-lg duration-300 bg-[#586069]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-br-lg hover:rounded-lg duration-300 bg-[#586069]'>
             <a className='flex justify-between items-center w-full text-gray-100'
               href={Resume}>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Resume from '../assets/AustinMorrow_Resume.pdf';
+//import { BsFillPersonLinesFill } from 'react-icons/bs';
+//import Resume from '../assets/AustinMorrow_Resume.pdf';
 
 const Footer = () => {
   return (
@@ -24,16 +24,16 @@ const Footer = () => {
           </li>
           <li className='w-[150px] h-[50px] flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="mailto:morrow.austin5@gmail.com">
+              href="mailto:austinmorrowdev@gmail.com">
               <span className='hover:text-[#9e100c]'>Email</span> <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[150px] h-[50px] flex justify-between items-center'>
+          {/* <li className='w-[150px] h-[50px] flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100'
               href={Resume}>
               <span className='hover:text-[#9e100c]'>Resume</span> <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* Copyright */}
