@@ -1,8 +1,8 @@
 import React from 'react';
-import J4J from '../assets/j4j.jpg';
-import ChartMd from '../assets/chartmd.jpg';
+//import J4J from '../assets/j4j.jpg';
+//import ChartMd from '../assets/chartmd.jpg';
 import DinnerParty from '../assets/dinnerparty.png';
-import TechBlog from '../assets/techblog.jpg';
+//import TechBlog from '../assets/techblog.jpg';
 import TeamProfile from '../assets/teamprofile.jpg';
 import Weather from '../assets/weatherdashboard.png';
 
@@ -17,7 +17,7 @@ const Work = () => {
         < div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid Item */}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
               <img className="rounded-t-lg" src={J4J} alt="" />
               <div className="p-6">
@@ -31,10 +31,10 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Grid Item */}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
               <img className="rounded-t-lg mb-10" src={ChartMd} alt="" />
               <div className="p-6">
@@ -48,7 +48,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* Grid Item */}
           <div className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
@@ -67,7 +67,7 @@ const Work = () => {
           </div>
 
           {/* Grid Item */}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
               <img className="rounded-t-lg" src={TechBlog} alt="" />
               <div className="p-6">
@@ -81,7 +81,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Grid Item */}
           <div className="flex justify-center">
