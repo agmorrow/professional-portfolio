@@ -86,7 +86,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="https://github.com/agmorrow" target="_blank" rel="noreferrer">
+              href="https://github.com/austin-morrow" target="_blank" rel="noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>

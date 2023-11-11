@@ -18,7 +18,7 @@ const Footer = () => {
           </li>
           <li className='w-[150px] h-[50px] flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100'
-              href="https://github.com/agmorrow" target="_blank" rel="noreferrer">
+              href="https://github.com/austin-morrow" target="_blank" rel="noreferrer">
               <span className='hover:text-[#9e100c]'>Github</span> <FaGithub size={30} />
             </a>
           </li>
