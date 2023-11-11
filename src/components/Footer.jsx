@@ -12,7 +12,7 @@ const Footer = () => {
         <ul>
           <li className='w-[150px] h-[50px] mt-4 flex justify-between items-center'>
             <a className='flex justify-between items-center w-full text-gray-100 '
-              href="https://www.linkedin.com/in/agmorrow/" target="_blank" rel="noreferrer">
+              href="https://www.linkedin.com/in/austin-morrow/" target="_blank" rel="noreferrer">
               <span className='hover:text-[#9e100c]'>Linkedin</span><FaLinkedin size={30} />
             </a>
           </li>
